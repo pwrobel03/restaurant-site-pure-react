@@ -109,6 +109,7 @@ body {
   text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
+  text-wrap: balance;
 }
 
 .headtext__cormorant {
