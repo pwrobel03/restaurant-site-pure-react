@@ -19,7 +19,7 @@
 }
 
 .app__newsletter-input input {
-    /* width: 80%; */
+    width: 80%;
     border: 0.2rem solid var(--color-golden);
     font-size: 1rem;
     border-radius: 0.2rem;
