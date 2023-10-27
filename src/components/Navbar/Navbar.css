@@ -1,11 +1,14 @@
 .app_navbar {
-    width: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
     color: var(--color-white);
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 0.5rem solid var(--color-golden);
+    position: fixed;
 }
 
 .app_navbar-logo {
@@ -42,6 +45,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: auto;
 }
 
 .app_navbar a {

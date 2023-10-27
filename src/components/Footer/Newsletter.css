@@ -32,9 +32,11 @@
     width: max-content;
 }
 
-@media screen and (min-width:2000px) {}
-
-@media screen and (max-width:990px) {}
+@media screen and (min-width:2000px) {
+    .app__newsletter {
+        max-width: 60%;
+    }
+}
 
 @media screen and (max-width:650px) {
     .app__newsletter {
